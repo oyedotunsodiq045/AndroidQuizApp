@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">Android Quiz App</string>
+
+    <string name="name">Enter Your Name</string>
+
+
+    <!-- Question One -->
+
+    <string name="question_one">1.    Given a method in a protected class, what access modifier do you use to restrict access to that method to only the other members of the same class?.</string>
+
+    <string name="question_one_option_a">A.    final</string>
+
+    <string name="question_one_option_b">B.    static</string>
+
+    <string name="question_one_option_c">C.    private</string>
+
+    <string name="question_one_option_d">D.    protected</string>
+
+    <string name="question_one_option_e">E.    volatile</string>
+
+
+    <!-- Question Two -->
+
+    <string name="question_two">2.    Which one creates an instance of an array?.</string>
+
+    <string name="question_two_option_a">A.    int [ ] ia = new int[15];</string>
+
+    <string name="question_two_option_b">B.    float fa = new float[20];</string>
+
+    <string name="question_two_option_c">C.    char [ ] ca = "Some String";</string>
+
+    <string name="question_two_option_d">D.    int ia [ ] [ ] = {4, 5, 6}, {1, 2, 3};</string>
+
+
+    <!-- Question Three -->
+
+    <string name="question_three">3.    What is the numerical range of a char?.</string>
+
+    <string name="question_three_option_a">A.    -128 to 127</string>
+
+    <string name="question_three_option_b">B.    -(2^15) to (2^15)-1</string>
+
+    <string name="question_three_option_c">C.    0 to 32767</string>
+
+    <string name="question_three_option_d">D.    0 to 65535</string>
+
+
+    <!-- Question Four -->
+
+    <string name="question_four">4.    Which four can be thrown using the throw statement?.</string>
+
+    <string name="question_four_choice_one">1.  Error</string>
+
+    <string name="question_four_choice_two">2.  Event</string>
+
+    <string name="question_four_choice_three">3.  Object</string>
+
+    <string name="question_four_choice_four">4.  Throwable</string>
+
+    <string name="question_four_choice_five">5.  Exception</string>
+
+    <string name="question_four_choice_six">6.  RuntimeException</string>
+
+
+    <string name="question_four_option_a">A.    1</string>
+
+    <string name="question_four_option_b">B.    2</string>
+
+    <string name="question_four_option_c">C.    3</string>
+
+    <string name="question_four_option_d">D.    4</string>
+
+    <string name="question_four_option_e">E.    5</string>
+
+    <string name="question_four_option_f">F.    6</string>
+
+
+    <!-- Question Five -->
+
+    <string name="question_five">5.   Which of the following are legal lines of code? (Select 2).</string>
+
+    <string name="question_five_choice_one">1.  int w = (int)888.8;</string>
+
+    <string name="question_five_choice_two">2.  x byte = (byte)1000L;</string>
+
+    <string name="question_five_choice_three">3.  y long = (byte)100;</string>
+
+    <string name="question_five_choice_four">4.  byte z = (byte)100L;</string>
+
+    <string name="question_five_option_a">A.    1</string>
+
+    <string name="question_five_option_b">B.    2</string>
+
+    <string name="question_five_option_c">C.    3</string>
+
+    <string name="question_five_option_d">D.    4</string>
+
+    <string name="question_five_option_e">E.    All statements are correct.</string>
+
+
+    <!-- Question Six -->
+
+    <string name="question_six">6.   What will be the output of the program?.</string>
+
+    <string name="question_six_preview">int i = (int) Math.random();</string>
+
+    <string name="question_six_option_a">A.    i = 0</string>
+
+    <string name="question_six_option_b">B.    i = 1</string>
+
+    <string name="question_six_option_c">C.    value of i is undetermined</string>
+
+    <string name="question_six_option_d">D.    Statement causes a compile error</string>
+
+
+    <!-- Question Seven -->
+
+    <string name="question_seven">7.   What will be the output of the program?.</string>
+
+    <string name="question_seven_preview_one">String s = "ABC";</string>
+
+    <string name="question_seven_preview_two">s.toLowerCase();</string>
+
+    <string name="question_seven_preview_three">s += "def";</string>
+
+    <string name="question_seven_preview_four">System.out.println(s);</string>
+
+    <string name="question_seven_option_a">A.    ABC</string>
+
+    <string name="question_seven_option_b">B.    abc</string>
+
+    <string name="question_seven_option_c">C.    ABCdef</string>
+
+    <string name="question_seven_option_d">D.    Compile Error</string>
+
+
+    <!-- Question Eight -->
+
+    <string name="question_eight">8.   Which of the following will not directly cause a thread to stop?.</string>
+
+    <string name="question_eight_option_a">A.    notify()</string>
+
+    <string name="question_eight_option_b">B.    wait()</string>
+
+    <string name="question_eight_option_c">C.    InputStream access</string>
+
+    <string name="question_eight_option_d">D.    sleep()</string>
+
+
+    <!-- Question Nine -->
+
+    <string name="question_nine">9.   Which class or interface defines the wait(), notify(), and notifyAll() methods?.</string>
+
+    <string name="question_nine_option_a">A.    Object</string>
+
+    <string name="question_nine_option_b">B.    Thread</string>
+
+    <string name="question_nine_option_c">C.    Runnable</string>
+
+    <string name="question_nine_option_d">D.    Class</string>
+
+
+    <!-- Question Ten -->
+
+    <string name="question_ten">10.   Which collection class allows you to access its element\'s by associating a key with an elements value, and provides synchronization?.</string>
+
+    <string name="question_ten_option_a">A.    java.util.SortedMap</string>
+
+    <string name="question_ten_option_b">B.    java.util.TreeMap</string>
+
+    <string name="question_ten_option_c">C.    java.util.TreeSet</string>
+
+    <string name="question_ten_option_d">D.    java.util.Hashtable</string>
+
+
+    <!--Score TextView-->
+
+    <string name="score">0</string>
+
+
+    <!--Submit Button-->
+
+    <string name="submit">Submit</string>
+
+</resources>
