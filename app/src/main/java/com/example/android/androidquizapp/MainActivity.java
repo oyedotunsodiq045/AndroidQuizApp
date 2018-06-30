@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.question_one_option_c:
                 if (checked)
                     score = score + 1;
-                display(score);
                     break;
         }
     }
@@ -203,13 +202,13 @@ public class MainActivity extends AppCompatActivity {
      */
     public void submitQuiz(View view) {
         // Display the quiz score on the screen
-         display(score);
+         updateScore(score);
     }
 
     /**
      * This method displays the given quantity value on the screen.
      */
-    private void display(float number) {
+    private void updateScore(float number) {
         TextView scoreTextView = (TextView) findViewById(R.id.score_text_view);
         scoreTextView.setText("" + number);
     }

@@ -175,6 +175,8 @@
 
     <!--Score TextView-->
 
+    <string name="score_text">Score</string>
+
     <string name="score">0</string>
 
 
