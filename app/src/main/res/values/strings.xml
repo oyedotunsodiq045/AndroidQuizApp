@@ -1,7 +1,26 @@
 <resources>
+
+    <!-- App Name -->
+
     <string name="app_name">Android Quiz App</string>
 
+
+    <!-- EditText View -->
+
     <string name="name">Enter Your Name</string>
+
+
+    <!-- Instructions View -->
+
+    <string name="instruction_text_view">Instructions</string>result_text_viewResult
+
+    <string name="instruction_a_text_view">Total number of questions</string>
+
+    <string name="total_question_result_text_view">:    10</string>
+
+    <string name="instruction_b_text_view">Each question carry one mark, no negative marks</string>
+
+    <string name="all_the_best_text_view">All the best :-).</string>
 
 
     <!-- Question One -->
@@ -173,7 +192,9 @@
     <string name="question_ten_option_d">D.    java.util.Hashtable</string>
 
 
-    <!--Score TextView-->
+    <!--Result TextView-->
+
+    <string name="result_text_view">Result</string>
 
     <string name="score_text">Score</string>
 
