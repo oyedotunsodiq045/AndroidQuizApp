@@ -80,19 +80,19 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()) {
             case R.id.question_four_option_a:
                 if (checked)
-                    score = score + 1/4;
+                    score += 0.25;
                     break;
             case R.id.question_four_option_d:
                 if (checked)
-                    score = score + 1/4;
+                    score += 0.25;
                 break;
             case R.id.question_four_option_e:
                 if (checked)
-                    score = score + 1/4;
+                    score += 0.25;
                     break;
             case R.id.question_four_option_f:
                 if (checked)
-                    score = score + 1/4;
+                    score += 0.25;
                 break;
         }
     }
@@ -108,11 +108,11 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()) {
             case R.id.question_five_option_a:
                 if (checked)
-                    score = score + 1/2;
+                    score += 0.5;
                 break;
             case R.id.question_five_option_d:
                 if (checked)
-                    score = score + 1/2;
+                    score += 0.5;
                 break;
         }
     }
@@ -201,8 +201,12 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the submitQuiz button is clicked.
      */
     public void submitQuiz(View view) {
+
+        // Convert float score to int
+        int result = (int) Math.round(score);
+
         // Display the quiz score on the screen
-         updateScore(score);
+         updateScore(result);
     }
 
     /**
