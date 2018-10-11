@@ -1,7 +1,7 @@
 # Name of app
 AndroidQuizApp
 
-# Verion
+# Version
 0.1
 
 # Language
